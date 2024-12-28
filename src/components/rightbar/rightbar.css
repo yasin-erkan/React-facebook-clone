@@ -1,0 +1,37 @@
+.rightbar {
+  flex: 3;
+  padding: 20px;
+}
+
+.rightbarWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightbarTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.rightbarList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rightbarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rightbarImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rightbarUsername {
+  font-size: 14px;
+}

@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.home .homeWrapper {
+  display: flex;
+  justify-content: space-between;
+}

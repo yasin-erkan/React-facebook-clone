@@ -1,0 +1,43 @@
+.sidebar {
+  flex: 2;
+  padding: 20px;
+}
+
+.sidebarWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebarTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+}
+
+.sidebarList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebarLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebarListItemText {
+  margin-left: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,44 @@
+.header {
+  background-color: #1877f2;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+.header .searchIcon {
+  color: #1877f2;
+  margin-right: 10px;
+}
+
+.header .searchInput {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.header .menu {
+  display: flex;
+}
+
+.header .menu a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}

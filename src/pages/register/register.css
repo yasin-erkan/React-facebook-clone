@@ -1,0 +1,87 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.registerWrapper {
+  display: flex;
+  width: 70%;
+  height: 60%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.registerLeft {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.registerLogo {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.registerDesc {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.registerRight {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerBox {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.registerInput {
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.registerButton {
+  height: 40px;
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  background-color: #36a420;
+}
+
+.registerLoginButton {
+  height: 40px;
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.registerLoginButton:hover {
+  background-color: #166fe5;
+}

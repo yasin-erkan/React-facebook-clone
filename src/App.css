@@ -1,0 +1,38 @@
+/* Base styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sidebar,
+.rightbar {
+  width: 250px;
+  height: calc(100vh - 50px);
+}
+
+.feed {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .rightbar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .feed {
+    margin: 0;
+  }
+}
